@@ -1,0 +1,6 @@
+CREATE TABLE Source (
+  sourceId NUMBER(19, 0) NOT NULL,
+  objectId NUMBER(19, 0) DEFAULT NULL,
+  decl NUMBER(10, 0) NOT NULL,
+  ra FLOAT (24) NOT NULL
+);
